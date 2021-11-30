@@ -1,0 +1,437 @@
+* {
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.imagen1{
+    background-image: none;
+    
+}
+
+h1{
+    color: #fff;
+}
+.contenedor {
+	background:rgb(46, 50, 51);
+	width:100%;
+	max-width:1100px;
+	margin:auto;
+
+	/* Flexbox */
+	display:flex;
+	flex-flow:column wrap;
+}
+
+.Catalogo{
+	background-color: #fff;
+	display: flex;
+	flex-flow: row, wrap;
+	height: 600px;
+	align-content: center;
+	
+}
+
+body {
+	background:#87f8f2;
+}
+
+header{
+	background:#2c3e50;
+	width:100%;
+	padding: 1px;
+
+	/* Flexbox */
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.nave{
+    width:50%;
+	/* Flexbox */
+
+	display:flex;
+	flex-wrap: wrap;
+	align-items:center;
+}
+
+header nav {
+	width:75%;
+	/* Flexbox */
+
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+}
+
+header nav a {
+	background:#87f8f2;
+	color:rgb(5, 5, 5);
+	text-align: center;
+	text-decoration: none;
+	padding:10px;
+
+	/* Flexbox */
+	flex-grow:1;
+}
+
+header nav a:hover {
+	background:#fafafa;
+}
+
+.Inicio {
+	background:#fff;
+	padding:30px;
+    width: 100%;
+	flex:1 1 75%;
+	/*flex:1;*/
+}
+.Inicio article {
+	margin-bottom: 20px;
+	padding-bottom:20px;
+	border-bottom:1px solid #000;
+}
+
+footer {
+	background:#2c3e50;
+	width: 100%;
+	padding:20px;
+
+	/* Flexbox */
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+footer .links {
+	color: #FFFFFF;
+	display:flex;
+	flex-wrap:wrap;
+
+}
+
+footer .links a {
+	flex-grow:1;
+
+	color:rgb(0, 0, 0);
+	padding:10px;
+	text-align: center;
+	text-decoration:none;
+}
+
+footer .links a:hover {
+	background:#f7f7f7;
+}
+
+footer .social {
+	background:#e67e22;
+}
+
+footer .social a {
+	color:#fff;
+	text-decoration: none;
+	padding:10px;
+	display: inline-block;
+}
+
+.Catalogo{
+	background-color: #fff;
+	display: flex;
+	flex-flow: row, wrap;
+	height: 600px;
+	align-content: center;
+}
+
+.marcoc{
+	background-color: #fafafa;
+	border: 5px solid rgb(71, 71, 71);
+	height: 200px;
+    width: 220px;
+	display: flex;
+	flex-flow: row;
+	text-align: center;
+	width:75%
+	
+}
+
+.Clase1{
+    background-color: white;
+    display: flex;
+	flex-flow: row, wrap;
+	height: 200px;
+	align-content: center;
+
+    margin-bottom: 20px;
+	padding-bottom:20px;
+	border-bottom:1px solid #000;
+
+}
+
+.i1{
+	background-color: #c9c9c9;
+	height: 178px;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.i2{
+	background-color: #c9c9c9;
+	height: 178px;
+	display: flex;
+	flex-direction: row;
+}
+
+.i3{
+	background-color: #c9c9c9;
+	height: 178px;
+	display: flex;
+	flex-direction: row;
+}
+
+.i4{
+	background-color: #c9c9c9;
+	height: 178px;
+	display: flex;
+	flex-direction: row;
+}
+
+.cl1m{
+	display: flex;
+	flex-direction: row	;
+}
+
+
+	
+
+
+.Clase2{
+    background-color: white;
+    display: flex;
+	flex-flow: row, wrap;
+	height: 200px;
+	align-content: center;
+
+    margin-bottom: 20px;
+	padding-bottom:20px;
+	border-bottom:1px solid #000;
+
+}
+
+.Clase3{
+    background-color: white;
+    display: flex;
+	flex-flow: row, wrap;
+	height: 200px;
+	align-content: center;
+
+    margin-bottom: 20px;
+	padding-bottom:20px;
+	border-bottom:1px solid #000;
+
+}
+
+.sw{
+color: yellow;
+}
+
+.Clase4{
+    background-color: white;
+    display: flex;
+	flex-flow: row, wrap;
+	height: 200px;
+	align-content: center;
+	
+    margin-bottom: 20px;
+	padding-bottom:20px;
+	border-bottom:1px solid #000;
+
+}
+
+.conc {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.Contacto{
+
+	background:#fff;
+	padding:30px;
+	height: 600px;
+	align-content: center;
+
+}
+
+
+
+.contacto_f {
+    display: flex;
+	flex-direction: column;
+}
+
+.post{
+	display: flex;
+	flex-direction: column;
+}
+
+.input_field {
+    width: 100%;
+    background: #f8f4f4;
+    border: solid 2px transparent;
+    margin-bottom: 24px;
+    height: 42px;
+    padding-left: 33px;
+}
+
+.text_field {
+    width: 100%;
+    height: 189px;
+    background: #f8f4f4;
+    border: solid 2px transparent;
+    padding-left: 33px;
+    margin-bottom: 24px;
+}
+.contact_send_btn {
+    width: 100%;
+    height: 48px;
+    background: #ffb606;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+.curso1{
+
+	background:#fff;
+	padding:30px;
+	height: 900px;
+	align-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.curso1 .curd{
+	
+background-color: darkslategray;
+color: floralwhite;
+
+}
+
+.curd h6{
+	color: floralwhite;
+	border-color: floralwhite;
+
+}
+
+.curd_autor{
+display: flex;
+flex-direction: row;
+color: floralwhite;
+
+}
+
+.curo{
+	display: flex;
+	flex-direction: row;
+}
+.curo .curo1{
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+	background-color: rgb(211, 211, 211);
+}
+
+.curo .curo2{
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+	background-color: rgb(211, 211, 211);
+	margin-left: 100px;
+}
+
+.curo1{
+	display: flex;
+	flex-direction: column;
+	width:60%;
+	padding-right: 2px;
+	border: 2px solid #ffffff;
+}
+
+
+
+.curo2{
+	
+	width:300px;
+	padding-right: 2px;
+	border: 2px solid #ffffff;
+	padding: 5px;
+	border-left: 20px solid #fff;
+	
+}
+
+.curo2 span{
+	height: 150px;
+	
+	margin-right: 20px;
+	display: flex;
+	justify-content: left;
+	width: 268px;
+	background-color: rgb(58, 100, 100);
+	
+}
+
+.curso2{
+
+	background:#fff;
+	padding:30px;
+	height: 900px;
+	align-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.curso2 .curd{
+background-color: darkslategray;
+color: floralwhite;
+
+}
+
+.curso3{
+
+	background:#fff;
+	padding:30px;
+	height: 900px;
+	align-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.curso3 .curd{
+background-color: darkslategray;
+color: floralwhite;
+
+}
+
+.curso4{
+
+	background:#fff;
+	padding:30px;
+	height: 900px;
+	align-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.curso4 .curd{
+background-color: darkslategray;
+color: floralwhite;
+
+}

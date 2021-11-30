@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <title>Cursomania</title>
+    
+</head>
+
+<header>
+    <div class="Logo">
+        <h1>Cursomania</h1>
+    </div>
+    
+
+    <div class="nave">
+        <nav class="nav">
+
+            <a class="I" href="#Inicio" >Inicio</a>
+            <a class="CL" href="#Catalogo" >Catalogo</a>
+            <a href="#Usuario">Usuario</a>
+            <a class="CT" href="#Contacto">Contacto</a>
+        </nav>
+    </div>
+    </header>
+
+  <div class="contenedor">
+    
+    
+    
+    <section class="Inicio">
+        <article>
+            <h2 class="titulo">¿Que es Cursomania?</h2>
+            <p>Cursomania es una pagina creada donde se proporciona cursos a las universidades del pais de colombia</p>
+        </article>
+
+        <article>
+            <div class="imagen1">
+                <img src="./w.jpg">
+            </div>
+        </article>
+    </section>
+
+    <section class="Catalogo">
+
+        <div class="marcoc">
+
+            <img src="./img/desarrollo-web.png" alt="DW">
+            
+            <div class="a">
+                <h6>Desarrollo web</h6>
+                <br>
+                <a href="./Cursos1.html">Ver Cursos</a>
+            </div>
+
+        </div>
+
+        <div class="marcoc">
+
+            <img src="./img/diseno-grafico.png" alt="DG">
+            <div >
+                <h6>Diseño Grafico</h6>
+                <div><a href="./Cursos2.html">Ver Cursos</a></div>
+            </div>
+
+        </div>
+
+        <div class="marcoc">
+
+            <img src="./img/programacion-web.png" alt="P">
+            
+            <div>
+                <h6>programacion</h6>
+                <div><a href="./Cursos3.html">Ver Cursos</a></div>
+            </div>
+
+        </div>
+
+        <div class="marcoc">
+            <img src="./img/juego.png" alt="Juegos">
+            
+            <div>
+                <h6>Juegos</h6>
+                <div><a href="./Cursos4.html">Ver Cursos</a></div>
+            </div>
+
+        </div>
+
+        
+
+    </section>
+
+    <section class="Contacto">
+
+        <div class="conc">
+					
+            <!-- Contact Form -->
+            <div class="contacto_e">
+                <div class="contact_title">Ponerse en contacto</div>
+
+                <div class="contacto_f">
+                    <form action="post">
+                        <input id="contact_form_name" class="input_field contact_form_name" type="text" placeholder="Name" required="required" data-error="Name is required.">
+                        <input id="contact_form_email" class="input_field contact_form_email" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
+                        <textarea id="contact_form_message" class="text_field contact_form_message" name="message" placeholder="Message" required="required" data-error="Please, write us a message."></textarea>
+                        <button id="contact_send_btn" type="button" class="contact_send_btn trans_200" value="Submit">send message</button>
+                    </form>
+                </div>
+            </div>
+                
+        </div>
+
+    </section>
+
+    <script>
+
+        $(document).ready(function(e){
+        $(".Catalogo").hide();
+        $(".Contacto").hide();
+
+        $(".CL").click(function(){
+            $(".Inicio").hide();
+            $(".Contacto").hide();
+            $(".Catalogo").show();
+
+        });
+
+        $(".I").click(function(){
+            $(".Catalogo").hide();
+            $(".Contacto").hide();
+            $(".Inicio").show();
+
+        });
+
+        $(".CT").click(function(){
+            $(".Catalogo").hide();
+            $(".Contacto").show();
+            $(".Inicio").hide();
+
+        });
+
+        });   
+
+    </script>
+
+    <footer>
+        <section class="links">
+            <div>
+                <h2>Cursomania</h2>
+            </div>
+
+        </section>
+
+        <div class="social">
+            <a href="#">FB</a>
+            <a href="#">TW</a>
+        </div>
+    </footer>
+</div>
